@@ -9,14 +9,14 @@
 void desenha(void)
 {
     glClear( GL_COLOR_BUFFER_BIT );
-    gluOrtho2D(-20, 20, -20, 20); // define a área de enquadramento da cena
+    gluOrtho2D(-20, 20, -20, 20); // define a Ã¡rea de enquadramento da cena
 
     glBegin(GL_LINES);
     //plano cartesiano
      //glVertex2f(0, 0);
     //glVertex2f(-20, 0);
 
-//letra C
+//letra M
 
     glVertex2f(-12, 8); //linha reta / vertical
     glVertex2f(-12, 0);
@@ -37,7 +37,7 @@ void desenha(void)
     glVertex2f(-6, 8); //linha de cima / horizontal
     glVertex2f(-2, 8);
 
-    glVertex2f(-6, 4); //linha do meio (traço) / horizontal
+    glVertex2f(-6, 4); //linha do meio (traÃ§o) / horizontal
     glVertex2f(-2, 4);
 
     glVertex2f(-6, 8); //linha reta da esquerda / vertical
@@ -50,7 +50,7 @@ void desenha(void)
     glVertex2f(0, 8); //linha de cima / horizontal
     glVertex2f(4, 8);
 
-    glVertex2f(0, 4); //linha do meio (traço) / horizontal
+    glVertex2f(0, 4); //linha do meio (traÃ§o) / horizontal
     glVertex2f(4, 4);
 
     glVertex2f(0, 8); //linha reta da esquerda / vertical
@@ -70,7 +70,7 @@ void desenha(void)
     glVertex2f(10, 8); //linha de cima / horizontal
     glVertex2f(6, 8);
 
-    glVertex2f(10, 4); //linha do meio (traço) / horizontal
+    glVertex2f(10, 4); //linha do meio (traÃ§o) / horizontal
     glVertex2f(6, 4);
 
     glVertex2f(10, 8); //linha reta da esquerda / vertical
